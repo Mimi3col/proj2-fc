@@ -1,7 +1,7 @@
 import React from "react"
 import info from '../src/cardinfo'
 
-function Header(props){
+function Header(){
     const size = info.length;
     return(
         <div className="Header">
