@@ -1,4 +1,4 @@
-# Web Development Project 2 - *Flashcards*
+# Web Development Project 2 Part 1 - *Flashcards*
 
 Submitted by: **Amanda Coleman**
 
