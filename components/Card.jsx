@@ -6,11 +6,25 @@ import './Card.css'
 
 
 function Card(props) {
+    const [count, setCount] = useState(0)
+
+    if(count){
+    return(
+        <div>
+            <button onClick={()=>setCount(count - 1)}>
+                <h1>{props.answer}</h1>
+        </button>
+        </div>
+        )
+    }else{
     return(
         <div className="Card">
-            <h1>{props.qna}</h1> 
+        <button onClick={ ()=>setCount(count + 1) }>
+            <h1>{props.question}</h1> 
+        </button>    
         </div>
     )
+    }
 }
 
 export default Card
