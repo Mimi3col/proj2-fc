@@ -13,10 +13,12 @@ function App(props) {
     <div className="App">
        <Header/>
        <Card question={info[Count].front} answer={info[Count].back}/>
-       <button onClick={() =>setCount(Count - 1)}>←</button>
+       <button onClick={() =>setCount(Math.floor(Math.random() * size))}>←</button>
        <button onClick={() =>setCount(Math.floor(Math.random() * size))}>→</button>
     </div>
   )
+
+
 }
 
 export default App

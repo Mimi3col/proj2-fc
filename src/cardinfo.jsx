@@ -1,29 +1,46 @@
 
 const info = [
     {
-        "front": "card 1",
-        "back": "back card 1"
+        "front": "Why did the chicken cross the road?",
+        "back": "Because of the feed on the cross walk"
     },
     {
-        "front": "card 2",
-        "back": "back card 2"
+        "front": "How do you tell the difference between an alligator and a crocodile? ",
+        "back": "You will see one later and one in a while"
     },
     {
-        "front": "card 3",
-        "back": "back card 3"
+        "front": "Why do cows wear bells?",
+        "back": "Because their horns don’t work."
     },
     {
-        "front": "card 4",
-        "back": "back card 4"
+        "front": "What do you call someone who always states the obvious?",
+        "back": "Someone who always states the obvious."
     },
     {
-        "front": "card 5",
-        "back": "back card 5"
+        "front": "Can February March?",
+        "back": "No, but April May."
     },
     {
-        "front": "card 6",
-        "back": "back card 6"
+        "front": "What do you call a dog that can do magic?",
+        "back": "A Labracabrador"
     },
+    {
+        "front": "What's Forrest Gump's Facebook password?",
+        "back": "1forrest1"
+    },
+    {
+        "front": "What did the fisherman say to the magician?",
+        "back": " Pick a cod, any cod."
+    },
+    {
+        "front": "Why can't a leopard hide?",
+        "back": "Because he's always spotted."
+    },
+    {
+        "front": "Why are spiders so smart?",
+        "back": "They can find everything on the web."
+    },
+
 ]
 
 

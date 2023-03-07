@@ -5,8 +5,9 @@ function Header(){
     const size = info.length;
     return(
         <div className="Header">
-            <h1>My FlashCards</h1>
-            <p>These are my flash cards for learning jsx</p>
+
+            <img className="Title" src="src/assets/Welcome to the Dad Jokes.png"></img>
+            <h1>FlashCards</h1>
             <p>There are {size} cards total</p>
         </div>
     )

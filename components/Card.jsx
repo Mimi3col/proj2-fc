@@ -10,9 +10,10 @@ function Card(props) {
 
     if(count){
     return(
-        <div>
+        <div className="Card">
             <button onClick={()=>setCount(count - 1)}>
                 <h1>{props.answer}</h1>
+                <p>(back card)</p>
         </button>
         </div>
         )
@@ -20,10 +21,11 @@ function Card(props) {
     return(
         <div className="Card">
         <button onClick={ ()=>setCount(count + 1) }>
-            <h1>{props.question}</h1> 
+            <h1>{props.question}</h1>
+            <p>(front card)</p> 
         </button>    
         </div>
-    )
+        )
     }
 }
 

@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 - [x] **A single card at a time is displayed, only showing one of the components of the information pair**
 - [x] **A list of card pairs is created**
 - [x] **Clicking on the card shows the corresponding component of the information pair**
-- [ ] **Clicking the next button displays a random new card**
+- [x] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:
 
@@ -24,24 +24,22 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
+  - changed the background to green, and added cool font for the title
+  - all dad jokes shown are not my own creation
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![My Video Walk Through](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmU4Y2ViYjU3OGRkNzdhOGEwODliOTY0ZjJiOTgxMDRkYThjMGEyOSZjdD1n/Cq1oXP0Arr9Mg7OkoV/giphy.gif)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+I had a tough time making the forward button pick a random card, I ended up using the random with the range from 0 to the max amount of cards, so sometimes a card will be repeated. Another challenge I had was getting the correct output on the card after it was clicked, I ended up using an if statement that is depending on the value in count. 
 
 ## License
 
