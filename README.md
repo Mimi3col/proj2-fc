@@ -4,7 +4,7 @@ Submitted by: **Amanda Coleman**
 
 This web app: **insert description**
 
-Time spent: **X** hours spent in total
+Time spent: **9** hours spent in total
 
 ## Required Features
 
